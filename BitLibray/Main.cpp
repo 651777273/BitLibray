@@ -21,6 +21,7 @@ int main()
 	str = "123456789";
 	str += '\0';
 	str += 0xd6;
+	str.append(3,'a');
 
 	string bcc = print_bin(str);
 	cout << bcc << endl;
